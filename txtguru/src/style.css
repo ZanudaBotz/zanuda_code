@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #dbdbdb;
+}
+
+#header h1 {
+  position: absolute;
+}
+
+#header button {
+  margin-left: 1300px;
+}
+
+#main {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#main .txt_window {
+  outline: none;
+  resize: none;
+  background: #c9c9c9;
+  -webkit-box-shadow: -1px 11px 15px 8px rgba(34, 60, 80, 0.2);
+          box-shadow: -1px 11px 15px 8px rgba(34, 60, 80, 0.2);
+}
+
+#main #doc_name {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+}
+
+button {
+  border-radius: 12px;
+  border: none;
+  background: #8f8f8f;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  -webkit-box-shadow: -1px 11px 15px 8px rgba(34, 60, 80, 0.2);
+          box-shadow: -1px 11px 15px 8px rgba(34, 60, 80, 0.2);
+}
+/*# sourceMappingURL=style.css.map */
